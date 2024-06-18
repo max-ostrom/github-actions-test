@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
           
       - name: Run linter
-        uses: github/super-linter@v3
+        uses: super-linter/super-linter@v6.6.0
         env: 
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
